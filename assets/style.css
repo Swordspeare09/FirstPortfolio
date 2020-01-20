@@ -5,6 +5,11 @@
     font-family: 'Slabo 27px', serif;
 }
 
+html{
+    height: 100%;
+}
+
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -57,6 +62,8 @@ nav{
 
 body{
     background-color: #ebf0fa;
+    min-height: 100%;
+
 }
 
 .aInfo{
@@ -107,18 +114,18 @@ article{
 }
 
 footer{
+    margin-top: 150px;
     background-color: aqua;
     font-family: 'Slabo 27px', serif;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 40px;
-    margin-bottom: 0px;
-    padding: 20px;
+    padding: 30px;
+    width: 100%;
     position: relative;
+
 }
 
 @media screen and (max-width: 1024px){
+
+
     .nav-links{
         width: 60%;
     }
@@ -126,6 +133,11 @@ footer{
 }
 
 @media screen and (max-width: 768px){
+
+        body{
+        overflow-x: hidden;
+
+    }
 
     .nav-links{
         position: absolute;
