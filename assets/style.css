@@ -62,28 +62,46 @@ body{
 
 }
 
-main{
-    
-
-}
-
 .aInfo{
     margin-top: 12px;
     padding: 0px;
     justify-content: space-around;
-    height: 500px;
+    height: 250px;
+    width: 250px;
     background-color: tomato;
-
+    flex-wrap: wrap;
 }
 
 .col-md-8 {
-    background-color:teal;
-    
-
+    margin: 10px;
+    padding: 10px;
+    height: 95%;
+    width: 80%;
+    float: left;
+}
+.col-md-8 img{
+    height: 50%;
+    width: 300px;
 }
 
-.bInfo{
+p{
+    font-size: 80%;
+    margin-top: 10px;
+}
 
+.bInfo img {
+   display: flex;
+   flex-wrap: wrap;
+   float: left;
+   margin-right: 10px;
+   margin-top: 10px;
+}
+
+.about-box{
+    text-transform: uppercase;
+    border-bottom: 3px;
+    border-bottom: double ;
+    padding-bottom: 3px;
 
 }
 
