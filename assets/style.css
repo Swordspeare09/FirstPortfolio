@@ -97,7 +97,9 @@ p{
    float: left;
    margin-right: 20px;
    margin-top: 10px;
+   width: 345px;
 }
+
 
 .about-box{
     text-transform: uppercase;
@@ -119,7 +121,7 @@ article{
 }
 
 footer{
-    margin-top: 190px;
+    margin-top: 240px;
     background-color: rgb(0, 2, 2);
     font-family: 'Slabo 27px', serif;
     color: #F5F5F5;
