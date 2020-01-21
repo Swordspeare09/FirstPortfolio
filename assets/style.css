@@ -72,7 +72,7 @@ body{
     justify-content: space-around;
     height: 250px;
     width: 250px;
-    background-color: tomato;
+    background-color: #ffffff;
     flex-wrap: wrap;
 }
 
@@ -84,7 +84,6 @@ body{
 }
 .col-md-8 img{
     height: 50%;
-    width: 300px;
 }
 
 p{
@@ -113,17 +112,17 @@ article{
     display: inline-block;
 }
 
-.gallery{
-    
-
-
-
+.gallery .aInfo{
+    margin: 15px;
+    padding: 15px;
+    justify-content: space-evenly;
 }
 
 footer{
-    margin-top: 150px;
-    background-color: aqua;
+    margin-top: 190px;
+    background-color: rgb(0, 2, 2);
     font-family: 'Slabo 27px', serif;
+    color: #F5F5F5;
     padding: 30px;
     width: 100%;
     position: relative;
