@@ -63,7 +63,6 @@ nav{
 body{
     background-color: #ebf0fa;
     min-height: 100%;
-
 }
 
 .aInfo{
@@ -115,10 +114,13 @@ article{
 }
 
 .gallery .aInfo{
-    margin: 15px;
-    padding: 15px;
+    margin: 10px;
+    padding: 10px;
     justify-content: space-evenly;
+    float: left;
+    flex-wrap: wrap;
 }
+
 
 footer{
     margin-top: 240px;
@@ -128,6 +130,13 @@ footer{
     padding: 30px;
     width: 100%;
     position: relative;
+
+}
+
+.card-title{
+    background-color: #ebf0fa;
+    text-align: center;
+
 
 }
 
