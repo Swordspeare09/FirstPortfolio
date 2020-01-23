@@ -86,7 +86,7 @@ body{
 }
 
 p{
-    font-size: 95%;
+    font-size: 100%;
     margin-top: 10px;
 }
 
@@ -136,7 +136,24 @@ footer{
 .card-title{
     background-color: #ebf0fa;
     text-align: center;
+}
 
+.gitHubLogo{
+    height: 30px;
+    align-items: center;
+    float: right;
+
+}
+
+.linkedInLogo{
+    height: 30px;
+    align-items: center;
+    float: left;
+}
+
+.copyRightLogo{
+    height: 30px;
+    text-align: center;
 
 }
 
