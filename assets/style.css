@@ -96,7 +96,7 @@ p{
    float: left;
    margin-right: 20px;
    margin-top: 10px;
-   width: 345px;
+   width: 250px;
 }
 
 
@@ -136,6 +136,10 @@ footer{
 .card-title{
     background-color: #ebf0fa;
     text-align: center;
+}
+
+.card-img-top{
+    height: 250px;
 }
 
 .gitHubLogo{
